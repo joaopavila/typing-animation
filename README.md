@@ -32,7 +32,13 @@ Usage
 ```
 
 ```
-`text` - your text
-`textColor` - color text and color cursor blink
-`cursor` - boolean value to show or not cursor
+text - your text
+textColor - color text and color cursor blink
+cursor - boolean value to show or not cursor
 ```
+
+| inputs    | types   |
+| --------- | ------- |
+| text      | string  |
+| textColor | string  |
+| cursor    | boolean |
