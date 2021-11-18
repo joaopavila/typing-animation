@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Usage
 Install via npm:
 ```shell
-npm install --save-dev typing-animation
+npm install --save-dev ng-typing-animation
 ```
 
 Import in your module
