@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { TypingAnimationModule } from 'projects/typing-animation/src/public-api';
+import { TypingAnimationModule } from 'ng-typing-animation';
 import { AppComponent } from './app.component';
 
 @NgModule({

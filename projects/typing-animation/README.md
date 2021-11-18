@@ -11,7 +11,7 @@ npm install --save-dev typing-animation
 Import in your module
 
 ```ts
-import { TypingAnimationModule } from 'typing-animation';
+import { TypingAnimationModule } from 'ng-typing-animation';
 
 @NgModule({
   imports: [
