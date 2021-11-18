@@ -21,18 +21,15 @@ import { TypingAnimationModule } from 'typing-animation';
 ```
 
 Usage
-
 ```html
 <typing-animation
-  text="The text comes here!!!"
-  class="yourStyle"
-  textColor="colorText"
-  [cursor]="booleanValue"
+    text="The text comes here!!!"
+    class="yourStyle"
+    textColor="colorText"
+    [cursor]="booleanValue"
 ></typing-animation>
 ```
 
-```
 `text` - your text
 `textColor` - color text and color cursor blink
 `cursor` - boolean value to show or not cursor
-```

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-text {
+  display: flex;
+  align-items: center;
+  height: auto;
+
+  .text {
+    border-right: 2px solid var(--text-color);
+    color: var(--text-color);
+    white-space: nowrap;
+    overflow: hidden;
+
+    &-animation {
+      animation: cursor 500ms infinite normal,
+        typing 2s steps(20) 0.5s normal both;
+    }
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  from {
+    border-right-color: var(--text-color);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
