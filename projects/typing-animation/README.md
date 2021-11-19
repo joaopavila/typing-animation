@@ -1,11 +1,17 @@
 # TypingAnimation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+## Install
 
-## Usage
-Install via npm:
+Install npm:
+
 ```shell
 npm install --save-dev ng-typing-animation
+```
+
+Install yarn
+
+```shell
+yarn add ng-typing-animation -D
 ```
 
 Import in your module
@@ -20,7 +26,7 @@ import { TypingAnimationModule } from 'ng-typing-animation';
 })
 ```
 
-Usage
+## Usage
 
 ```html
 <typing-animation

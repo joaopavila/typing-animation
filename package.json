@@ -1,6 +1,6 @@
 {
   "name": "typing-animation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,18 @@
     "build-lib": "ng build typingAnimation"
   },
   "private": true,
+  "keywords": [
+    "animation",
+    "typing animation",
+    "typing"
+  ],
+  "author": "Joao Paulo Avila",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaopavila/typing-animation.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/joaopavila/typing-animation/tree/main/projects/typing-animation",
   "dependencies": {
     "@angular/animations": "~13.0.0",
     "@angular/common": "~13.0.0",
